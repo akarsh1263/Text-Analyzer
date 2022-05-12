@@ -1,0 +1,9 @@
+body{
+    background-image: url('tlzbg.jpg');
+}
+h1{
+    padding-left: 5%;
+}
+textarea{
+    overflow: scroll;
+}

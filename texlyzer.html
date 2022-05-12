@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Text Analyzer</title>
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        <link rel="stylesheet" href="txlstyle.css">
+    </head>
+    <body>
+        <h1 class="display-2">Text</h1>
+        <br>
+        <h1 class="display-2">Analyzer</h1>
+        <br>
+        <div class="form-group">
+            <textarea id="txt" class="form-control" rows="7" placeholder="Enter the text"></textarea>
+        </div>
+        <br>
+        <button type="button" id="but" class="btn btn-primary" style="margin-left: 2.5%;">Analyze</button>
+        <br>
+        <div id="words" style="margin-left: 2.5%; margin-top: 1%;"></div>
+        <br>
+        <div id="chars" style="margin-left: 2.5%;"></div>
+        <br>
+        <div id="puns" style="margin-left: 2.5%;"></div>
+        <script src="analyze.js"></script>
+    </body>
+</html>
